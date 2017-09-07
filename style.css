@@ -30,17 +30,7 @@ body{
   padding-bottom: 6px;
   margin-top: -10px;
 }
-.header_active hr{
-  width: 100%;
-  border: 1px solid white;
-  display: block !important;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3px !important;
-}
-.navbar-nav li a hr{
-  display: none;
-}
+
 .nav{
   padding-left: 15% !important;
 }
@@ -201,7 +191,7 @@ margin-top: -3px;
     height: 100vh;
 }
 .slide1{
-    background: url('images/slide1.jpg');
+    background: url('images/cover1.jpeg');
     background-size: cover;
     background-repeat:no-repeat;
     -moz-background-size: cover;
@@ -212,7 +202,7 @@ margin-top: -3px;
     
 }
 .slide2{
-    background: url('images/sbjpg/m-1-slide-1.jpg');
+    background: url('images/slide2.jpeg');
     background-size: cover;
     background-repeat:no-repeat;
     -moz-background-size: cover;
@@ -223,7 +213,7 @@ margin-top: -3px;
      
 }
 .slide3{
-    background: url('images/sbjpg/m-1-slide-1.jpg');
+    background: url('images/slide3.jpeg');
     background-size: cover;
     background-repeat:no-repeat;
     -moz-background-size: cover;
@@ -250,7 +240,7 @@ margin-top: -3px;
     color: white;
     font-size: 3em;
     text-align: right;
-    color: black;
+    color: #d1d1e0;
     text-shadow: none;
 }
 .carousel-caption p{
@@ -260,9 +250,21 @@ margin-top: -3px;
     font-family: 'Lato', sans-serif;
     margin-top: 1em;
     text-align: right;
-    color: black;
+    color: #d1d1e0;
     text-shadow: none;
   }
+#slide2 {
+    text-align: left;
+    color: white;
+    font-size: 2em;
+ 
+}
+#slide3{
+    text-align: left;
+    color: black;
+   
+    font-size: 2.5em;
+}
 .carousel .icon-container {
     display: inline-block;
     font-size: 25px;
@@ -378,7 +380,12 @@ margin-top: -3px;
 .containeri {
     position: relative;
     width: 100%;
-    background: rgba(0,0,0,1);
+    background: gray;
+}
+#adresa{
+    padding:5px;
+    color:white;
+    text-align: left;
 }
 
 .image {
@@ -459,7 +466,7 @@ margin-top: -3px;
     padding-bottom: 50px;
 }
 #bk{
-	background: url('images/paralax.jpg');
+	background: url('images/happiness.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: auto;
@@ -471,26 +478,24 @@ margin-top: -3px;
 #bk h1{
 	text-align: center;
 	color: white;
-	padding-top: 80px;
+	padding-top: 160px;
 	text-transform: uppercase;
 	padding-bottom: 30px;
 
 }
 
-#bk p {
-	text-align: center;
-	color: white;
-	padding-bottom: 30px;
-}
 .rrethnesh h2{
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	text-transform: uppercase;
 }
 
 .rrethnesh p{
+   
 	text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .top-br{
 	height: 80px;
@@ -581,8 +586,8 @@ margin-top: -3px;
 .navbar-nav li a{
 	color: white !important;
 }
-.fortesa{
-	background-color: black;
+.shikotegjitha{
+	background-color: gray;
 	color: white;
 	border: none;
 	margin-top: 20px;
